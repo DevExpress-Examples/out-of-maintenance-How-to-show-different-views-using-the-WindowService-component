@@ -1,0 +1,12 @@
+﻿<dx:ThemedWindow
+    x:Class="WindowServiceExample.MainWindow"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:Views="clr-namespace:WindowServiceExample.Views"
+    Width="208.537"
+    Height="121.341"
+    Title="MainWindow">
+
+    <Views:MainView />
+
+</dx:ThemedWindow>
