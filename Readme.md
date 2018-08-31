@@ -1,2 +1,2 @@
-## DialogService - How to close an opened dialog and specify the dialog result
-This example demonstrates how to work with the currently opened dialog directly from its view model. The CurrentDialogService component is a handful tool in this case, which allows to close the dialog with one of the available results from within a command inside the view model.
+## How to show different views using the WindowService component
+The WindowService component provides a way to show a simple content window inside a MVVM application. 
