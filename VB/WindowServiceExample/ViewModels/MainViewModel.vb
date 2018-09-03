@@ -3,7 +3,6 @@ Imports DevExpress.Mvvm.POCO
 
 Namespace WindowServiceExample.ViewModels
     Public Class MainViewModel
-        Inherits ViewModelBase
 
         Protected Sub New()
         End Sub
@@ -21,7 +20,7 @@ Namespace WindowServiceExample.ViewModels
 
         Public ReadOnly Property WindowService() As IWindowService
             Get
-                Return GetService(Of IWindowService)()
+                Return Me.GetService(Of IWindowService)()
             End Get
         End Property
     End Class
