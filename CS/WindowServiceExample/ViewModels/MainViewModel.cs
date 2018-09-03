@@ -2,7 +2,7 @@
 using DevExpress.Mvvm.POCO;
 
 namespace WindowServiceExample.ViewModels {
-    public class MainViewModel : ViewModelBase {
+    public class MainViewModel {
         protected MainViewModel() { }
 
         public static MainViewModel Create() {
@@ -18,7 +18,7 @@ namespace WindowServiceExample.ViewModels {
 
         public IWindowService WindowService {
             get {
-                return GetService<IWindowService>();
+                return this.GetService<IWindowService>();
             }
         }
     }
