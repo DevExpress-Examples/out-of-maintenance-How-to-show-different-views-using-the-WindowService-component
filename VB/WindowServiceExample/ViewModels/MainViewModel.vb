@@ -3,7 +3,6 @@ Imports DevExpress.Mvvm.POCO
 
 Namespace WindowServiceExample.ViewModels
     Public Class MainViewModel
-
         Protected Sub New()
         End Sub
 
