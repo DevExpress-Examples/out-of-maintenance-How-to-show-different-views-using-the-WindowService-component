@@ -1,8 +1,10 @@
-﻿Imports DevExpress.Mvvm
+Imports DevExpress.Mvvm
 Imports DevExpress.Mvvm.POCO
 
 Namespace WindowServiceExample.ViewModels
+
     Public Class MainViewModel
+
         Protected Sub New()
         End Sub
 
@@ -13,13 +15,14 @@ Namespace WindowServiceExample.ViewModels
         Public Sub ShowFirst()
             WindowService.Show("FirstWindowView", Nothing, Me)
         End Sub
+
         Public Sub ShowSecond()
             WindowService.Show("SecondWindowView", Nothing, Me)
         End Sub
 
-        Public ReadOnly Property WindowService() As IWindowService
+        Public ReadOnly Property WindowService As IWindowService
             Get
-                Return Me.GetService(Of IWindowService)()
+                Return GetService(Of IWindowService)()
             End Get
         End Property
     End Class

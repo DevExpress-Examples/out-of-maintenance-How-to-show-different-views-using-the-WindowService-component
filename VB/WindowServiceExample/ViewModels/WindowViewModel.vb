@@ -1,8 +1,9 @@
-﻿Imports DevExpress.Mvvm
 Imports DevExpress.Mvvm.POCO
 
 Namespace WindowServiceExample.ViewModels
+
     Public Class WindowViewModel
+
         Protected Sub New()
         End Sub
 

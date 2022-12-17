@@ -1,14 +1,15 @@
-﻿Imports System.Windows.Controls
+Imports System.Windows.Controls
 
 Namespace WindowServiceExample.Views
+
     ''' <summary>
     ''' Interaction logic for WindowView.xaml
     ''' </summary>
-    Partial Public Class SecondWindowView
+    Public Partial Class SecondWindowView
         Inherits UserControl
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
     End Class
 End Namespace
